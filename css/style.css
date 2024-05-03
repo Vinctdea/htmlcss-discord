@@ -3,30 +3,46 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+a{
+    text-decoration: none;
 }
 
 /* regole header */
 
+
 header{
-    /* debug */
-    min-height: 500px;
-    background-color: blue;
-    font-size: 50px;
+    margin-top: 20px;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 600px;
+    font-size: 30px;       
+}
+
+#logo{
+    padding: 3%;
 }
 
  nav ul {
+    gap: 40px;
     display: flex;
     justify-content: center;
     list-style: none;
-    
+    color: white;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 10%;
-    /* debug */
-    background-color: chocolate;
+    margin: 0% 10%;
+}
+
+.bottone{
+   background-color: white;
+   border-radius: 15px;
+   padding: 0 3px;
+
 }
 
 .banner{
