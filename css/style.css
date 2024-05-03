@@ -39,7 +39,7 @@ nav{
 }
 
 .bottone{
-    color: black;
+   color: black;
    background-color: white;
    border-radius: 15px;
    padding: 0 3px;
@@ -73,19 +73,25 @@ nav{
     display: flex;
     padding: 30px 15% ;
     justify-content: flex-start;
+    align-items: center;
 }
+
+.testo> p{
+    margin: 30px;
+}
+
 .img-home{
     /* debug */
-    min-width: 1000px;
+    /* min-width: 1000px;
     min-height: 400px;
-    background-color: rgb(9, 17, 1);
+    background-color: rgb(9, 17, 1); */
 }
 
 .testo{
     /* debug */
-    min-width: 300px;
+    /* min-width: 300px;
     min-height: 400px;
-    background-color: chartreuse;
+    background-color: chartreuse; */
 }
 
 .grey{
@@ -99,9 +105,10 @@ nav{
 
 #banner-bot{
    margin-left: 25%;
-    height: 400px;
+   text-align: center;
+    /* height: 400px;
     width: 900px;
-    background-color: darkorchid;
+    background-color: darkorchid; */
 } 
 
 .sfondo-section{
@@ -113,7 +120,7 @@ nav{
 footer{
     background-color: darkslategray;
     /* debug */
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 /* regole footer */
@@ -121,7 +128,7 @@ footer{
 footer{
     background-color: rgb(27, 26, 26);
     /* debug */
-    min-height: 250px;
+    /* min-height: 250px; */
 }
 
 .flex-footer{
@@ -132,17 +139,17 @@ footer{
 
 #col-main{
     /* debug */
-    min-width: 600px;
-    background-color: darkslategrey;
+    /* min-width: 600px;
+    background-color: darkslategrey; */
 
 }
 .col-foot{ 
     margin-top: 30px;
     align-items: center; 
     /* debug */
-    background-color: rgb(112, 60, 22);
+    /* background-color: rgb(112, 60, 22);
     min-height: 600px;
-    min-width: 300px;
+    min-width: 300px; */
 }
 
 #pie-pagina{
