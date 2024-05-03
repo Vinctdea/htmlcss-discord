@@ -1,0 +1,124 @@
+/* regole generali */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* regole header */
+
+header{
+    /* debug */
+    min-height: 500px;
+    background-color: blue;
+    font-size: 50px;
+}
+
+ nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    /* debug */
+    background-color: chocolate;
+}
+
+.banner{
+    margin:50px 30%;
+    /* debug */
+    min-width: 300px;
+    min-height: 200px;
+    background-color: crimson;
+
+}
+
+/* regole main */
+
+.sfondo{
+    display: flex;
+    padding: 30px 15% ;
+    justify-content: flex-start;
+}
+.img-home{
+    /* debug */
+    min-width: 1000px;
+    min-height: 400px;
+    background-color: rgb(9, 17, 1);
+}
+
+.testo{
+    /* debug */
+    min-width: 300px;
+    min-height: 400px;
+    background-color: chartreuse;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#banner-bot{
+   margin-left: 25%;
+    height: 400px;
+    width: 900px;
+    background-color: darkorchid;
+} 
+
+.sfondo-section{
+    height: 500px;
+    width: 100%;
+    padding: 30px 15%;
+}
+
+footer{
+    background-color: darkslategray;
+    /* debug */
+    min-height: 500px;
+}
+
+/* regole footer */
+
+footer{
+    background-color: rgb(27, 26, 26);
+    /* debug */
+    min-height: 250px;
+}
+
+.flex-footer{
+    display: flex;
+    margin-left:15%;
+    gap: 30px;
+}
+
+#col-main{
+    /* debug */
+    min-width: 600px;
+    background-color: darkslategrey;
+
+}
+.col-foot{ 
+    margin-top: 30px;
+    align-items: center; 
+    /* debug */
+    background-color: rgb(112, 60, 22);
+    min-height: 600px;
+    min-width: 300px;
+}
+
+#pie-pagina{
+    margin: 30px 15%;
+    /* debug */
+    min-height: 100px;
+    background-color: aqua;
+}
